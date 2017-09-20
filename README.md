@@ -13,15 +13,13 @@ from skip-gram model and character-level word features learnt from Convolutional
 
 <figure>
     <img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png" width="500">
-    <figcaption>The CNN layer for extracting character-level
-word features of word Học_sinh (Student).</figcaption>
+    <figcaption>The CNN layer for extracting character-level word features of word Học_sinh (Student).</figcaption>
 </figure>
 
-![](https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png "The CNN layer for extracting character-level
-word features of word Học_sinh (Student).")
-
-![](https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/word_level.png "The Bi-LSTM-CRF layers for input sentence
-Anh rời EU hôm qua. (UK left EU yesterday.)")
+<figure>
+    <img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/word_level.png" width="500">
+    <figcaption>The Bi-LSTM-CRF layers for input sentence Anh rời EU hôm qua (UK left EU yesterday)</figcaption>
+</figure>
 
 Our system achieves an accuracy of 91.92%, F1 scores of 84.11% and 92.91% for POS tagging, chunking, and NER tasks 
 respectively.
