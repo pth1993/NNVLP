@@ -1,0 +1,1 @@
+{"instances": ["B-NP", "I-NP", "O", "B-QP", "B-PP", "B-VP", "B-AP", "I-VP", "I-AP", "I-PP", "I-QP", "B-RP"], "instance2index": {"I-PP": 10, "B-QP": 4, "B-PP": 5, "I-VP": 8, "I-QP": 11, "O": 3, "B-RP": 12, "I-NP": 2, "B-VP": 6, "B-AP": 7, "B-NP": 1, "I-AP": 9}}

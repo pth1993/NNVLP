@@ -1,0 +1,1 @@
+{"instances": ["O", "B-LOC", "B-ORG", "I-LOC", "B-PER", "I-ORG", "B-MISC", "I-MISC"], "instance2index": {"I-LOC": 4, "B-ORG": 3, "O": 1, "B-PER": 5, "I-MISC": 8, "B-MISC": 7, "I-ORG": 6, "B-LOC": 2}}
