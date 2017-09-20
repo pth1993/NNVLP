@@ -11,10 +11,10 @@ The architecture of this system is the combination of bi-directional Long Short-
 Conditional Random Field (CRF), and word embeddings that is the concatenation of pre-trained word embeddings learnt 
 from skip-gram model and character-level word features learnt from Convolutional Neural Network (CNN).
 
-![](https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png "The CNN layer for extracting character-level
+![](https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png | width=100 "The CNN layer for extracting character-level
 word features of word Học_sinh (Student).")
 
-![](https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/word_level.png "The Bi-LSTM-CRF layers for input sentence
+![](https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/word_level.png | width=100 "The Bi-LSTM-CRF layers for input sentence
 Anh rời EU hôm qua. (UK left EU yesterday.)")
 
 Our system achieves an accuracy of 91.92%, F1 scores of 84.11% and 92.91% for POS tagging, chunking, and NER tasks 
@@ -130,7 +130,7 @@ Arguments in these scripts:
 Vietnamese from the internet. (It may take a long time because a size of this embedding set is about 1 GB). If the 
 system cannot automatically download this embedding set, you can manually download it from here 
 ([vector](https://drive.google.com/open?id=0BytHkPDTyLo9WU93NEI1bGhmYmc), 
-[unknown vector](https://drive.google.com/open?id=0BytHkPDTyLo9VVlld1VlVVVoSHM)
+[unknown vector](https://drive.google.com/open?id=0BytHkPDTyLo9VVlld1VlVVVoSHM),
 [word](https://drive.google.com/open?id=0BytHkPDTyLo9SC1mRXpkbWhfUDA)) and put it into **embedding** directory.
 
 ## 4. References
