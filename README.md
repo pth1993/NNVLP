@@ -12,15 +12,15 @@ Conditional Random Field (CRF), and word embeddings that is the concatenation of
 from skip-gram model and character-level word features learnt from Convolutional Neural Network (CNN).
 
 <figure>
-    <img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png" width="500">
+    <img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png" width="600">
     <figcaption>Figure 1: The CNN layer for extracting character-level word features of word Học_sinh (Student).</figcaption>
 </figure>
 
 <figure>
-    <img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/word_level.png" width="500">
-    <figcaption>Figure 2: The Bi-LSTM-CRF layers for input sentence Anh rời EU hôm qua (UK left EU yesterday)</figcaption>
+    <img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/word_level.png" width="600">
+    <figcaption>Figure 2: The Bi-LSTM-CRF layers for input sentence Anh rời EU hôm qua (UK left EU yesterday).</figcaption>
 </figure>
-
+<p>
 
 Our system achieves an accuracy of 91.92%, F1 scores of 84.11% and 92.91% for POS tagging, chunking, and NER tasks 
 respectively.
