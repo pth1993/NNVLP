@@ -11,8 +11,11 @@ The architecture of this system is the combination of bi-directional Long Short-
 Conditional Random Field (CRF), and word embeddings that is the concatenation of pre-trained word embeddings learnt 
 from skip-gram model and character-level word features learnt from Convolutional Neural Network (CNN).
 
-<img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png" alt="The CNN layer for extracting character-level
-word features of word Học_sinh (Student)." width="500">
+<figure>
+    <img src="https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png" width="500">
+    <figcaption>The CNN layer for extracting character-level
+word features of word Học_sinh (Student).</figcaption>
+</figure>
 
 ![](https://raw.githubusercontent.com/pth1993/NNVLP/master/docs/cnn.png "The CNN layer for extracting character-level
 word features of word Học_sinh (Student).")
