@@ -2,7 +2,7 @@
 -----------------------------------------------------------------
 Code by **Thai-Hoang Pham** at Alt Inc. 
 
-The demo website is available at [nnvlp.org](http://nnvlp.org)
+A demo website is available at [nnvlp.org](http://nnvlp.org)
 
 ## 1. Introduction
 **NNVLP** is a Python implementation of the system described in a paper [NNVLP: A Neural Network-Based Vietnamese 

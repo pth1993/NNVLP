@@ -244,7 +244,7 @@ def train_model(num_data, batch_size, learning_rate, patience, decay_rate, X_tra
                 test_inst += inputs.shape[0]
                 utils.output_predictions(predictions, targets, masks, output_dir + '/test%d' % epoch, label_alphabet,
                                          is_flattened=False)
-            np.savez('pre-train-model/' + model_name + '/weights', *lasagne.layers.get_all_param_values(model))
+            np.savez('pre-trained-model/' + model_name + '/weights', *lasagne.layers.get_all_param_values(model))
             print 'test loss: %.4f, corr: %d, total: %d, acc: %.2f%%' % (
                 test_err / test_inst, test_corr, test_total, test_corr * 100 / test_total)
             if model_name != 'pos':
