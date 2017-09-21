@@ -144,13 +144,13 @@ system cannot automatically download this embedding set, you can manually downlo
 ## 4. References
 
 [Thai-Hoang Pham, Xuan-Khoai Pham, Tuan-Anh Nguyen, Phuong Le-Hong, "NNVLP: A Neural Network-Based Vietnamese Language 
-Processing Toolkit"](https://arxiv.org/abs/1708.07241)
+Processing Toolkit" Proceedings of The 8th International Joint Conference on Natural Language Processing (IJCNLP 2017)](https://arxiv.org/abs/1708.07241)
 
 ```
-@article{Pham:2017b,
+@inproceedings{Pham:2017b,
   title={NNVLP: A Neural Network-Based Vietnamese Language Processing Toolkit},
   author={Thai-Hoang Pham and Xuan-Khoai Pham and Tuan-Anh Nguyen and Phuong Le-Hong},
-  journal={arXiv},
+  booktitle={Proceedings of The 8th International Joint Conference on Natural Language Processing},
   year={2017},
 }
 ```
