@@ -1,6 +1,6 @@
 # NNVLP - A Neural Network-Based Vietnamese Language Processing Toolkit
 -----------------------------------------------------------------
-Code by **Thai-Hoang Pham** at Alt Inc. 
+Code by **Thai-Hoang Pham** at Alt Inc. (Utilize some code at a [repository](https://github.com/XuezheMax/LasagneNLP))
 
 A demo website is available at [nnvlp.org](http://nnvlp.org)
 
